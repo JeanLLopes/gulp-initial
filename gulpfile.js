@@ -13,3 +13,10 @@ gulp.task('roll-compressor', function(){
         .pipe(gulp.dest('prod/asserts/css'))
 });
 
+//HERE WE ARE CREATE A WACTH TO LISTENER FILE style.css
+//IN ALL TIME THAT FILE style.css IS MODIFIED THIS TASK
+//RUN AUTOMATIC
+gulp.task('listener', function(){
+    gulp.watch('dev/asserts/css/style.css',['roll-compressor'])
+})
+
