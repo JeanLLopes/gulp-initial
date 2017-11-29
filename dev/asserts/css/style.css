@@ -1,12 +1,10 @@
-body{
-    background: #000
-}
-h2{
-    color: darkred
-}
-h4{
-    color: blue
-}
-p{
-    color:#000;
-}
+body {
+  background: #000;
+  border: 10px solid red;
+  padding: 20px;
+  font-size: 20px;
+  color: #fff; }
+
+h1 {
+  color: #fff;
+  padding: 20px; }
