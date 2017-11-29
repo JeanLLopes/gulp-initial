@@ -1,2 +1,2 @@
 # gulp
-initial tests with gulp
+using gulp task and wacth
