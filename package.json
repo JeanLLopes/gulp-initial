@@ -1,0 +1,24 @@
+{
+  "name": "gulp-initial",
+  "version": "1.0.0",
+  "description": "tests gulp",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JeanLLopes/gulp-initial.git"
+  },
+  "author": "Jean Lopes",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JeanLLopes/gulp-initial/issues"
+  },
+  "homepage": "https://github.com/JeanLLopes/gulp-initial#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-cssmin": "^0.2.0",
+    "gulp-rename": "^1.2.2"
+  }
+}
